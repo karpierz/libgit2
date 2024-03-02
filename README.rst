@@ -8,7 +8,7 @@ Overview
 
 | Python |package_bold| module is a low-level binding for *libgit2* C library.
 | It is an effort to allow python programs full access to the API implemented
-  and provided by the well known `*libgit2* <https://curl.se/libcurl/>`__ library.
+  and provided by the well known `*libgit2* <https://libgit2.org/>`__ library.
 
 `PyPI record`_.
 
@@ -20,7 +20,7 @@ Overview
 |
 | *libgit2* API documentation can be found at:
 
-  `libgit2 API overview <https://curl.se/libcurl/c/libcurl.html>`__
+  `libgit2 API overview <https://libgit2.org/libgit2/#HEAD>`__
 
 |package_bold| uses the underlying *libgit2* C shared library as specified in
 libgit2.cfg (included libgit2-X.X.* is the default), but there is also ability
@@ -36,30 +36,12 @@ to specify it programmatically by one of the following ways:
 About original libgit2:
 -----------------------
 
-Borrowed from the `original website <https://curl.se/libcurl/>`__:
+Borrowed from the `original website <https://libgit2.org/>`__:
 
-**libgit2** - the multiprotocol file transfer library
-
-**Overview**
-
-**libgit2** is a free and easy-to-use client-side URL transfer library,
-supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS,
-LDAP, LDAPS, MQTT, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS,
-SMTP, SMTPS, TELNET and TFTP.
-
-**libgit2** supports SSL certificates, HTTP POST, HTTP PUT, FTP uploading,
-HTTP form based upload, proxies, HTTP/2, HTTP/3, cookies, user+password
-authentication (Basic, Digest, NTLM, Negotiate, Kerberos), file transfer
-resume, http proxy tunneling and more!
-
-**libgit2** is highly portable, it builds and works identically on numerous
-platforms, including Solaris, NetBSD, FreeBSD, OpenBSD, Darwin, HPUX, IRIX,
-AIX, Tru64, Linux, UnixWare, HURD, Windows, Amiga, OS/2, BeOs, Mac OS X,
-Ultrix, QNX, OpenVMS, RISC OS, Novell NetWare, DOS and more...
-
-**libgit2** is free, thread-safe, IPv6 compatible, feature rich, well
-supported, fast, thoroughly documented and is already used by many known,
-big and successful companies. 
+**libgit2** is a portable, pure C implementation of the Git core methods
+provided as a re-entrant linkable library with a solid API, allowing you
+to write native speed custom Git applications in any language that supports
+C bindings. 
 
 Requirements
 ============
